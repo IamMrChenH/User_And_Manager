@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">登录</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">请输入账号</string>
+    <string name="prompt_password">请输入密码 (optional)</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_email">此账号无效</string>
+    <string name="error_invalid_password">您的密码太短了</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">不能为空</string>
+    <string name="permission_rationale">"权限不足，请给权限."
+    </string>
+
+    <string name="error_email_not_null">"账号不能为空."</string>
+    <string name="error_password_not_null">"密码不能为空."</string>
+
+
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_regist">注册</string>
+    <array name="carID">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </array>
+
+    <array name="address">
+        <item>AA大路</item>
+        <item>BB小道</item>
+        <item>CC大街</item>
+        <item>DD楼下</item>
+        <item>GG马路下</item>
+        <item>EE小区</item>
+        <item>XX路XX村</item>
+    </array>
+
+    <array name="v_msg">
+        <item>不按规定车道等待练红绿灯</item>
+        <item>开车打电话</item>
+        <item>闯红灯</item>
+        <item>酒驾醉驾</item>
+    </array>
+    <array name="list_msg">
+        <item>xxx路有交通事故，最请离最近的快速交警前往。</item>
+        <item>aa路有交通事故，最请离最近的快速交警前往</item>
+        <item>asdsad路有交通事故，最请离最近的快速交警前往</item>
+        <item>sdsd路有交通事故，最请离最近的快速交警前往</item>
+        <item>asd路有交通事故，最请离最近的快速交警前往</item>
+        <item>xq路有交通事故，最请离最近的快速交警前往</item>
+        <item>xwe路有交通事故，最请离最近的快速交警前往</item>
+        <item>xqx路有交通事故，最请离最近的快速交警前往</item>
+        <item>tt路有交通事故，最请离最近的快速交警前往</item>
+        <item>qwrx路有交通事故，最请离最近的快速交警前往</item>
+    </array>
+
+
+    <array name="rule_list">
+        <item>请选择</item>
+        <item>闯红灯</item>
+        <item>酒驾</item>
+        <item>不系安全带</item>
+        <item>副驾不系安全带</item>
+        <item>行驶途中拨打手机</item>
+        <item>行驶途中抽烟</item>
+        <item>有意遮挡号牌</item>
+        <item>超速驾驶</item>
+        <item>记满12分继续驾车</item>
+        <item>肇事后逃逸</item>
+    </array>
+</resources>

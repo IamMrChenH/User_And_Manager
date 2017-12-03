@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/listview"
+        android:enabled="true"
+        android:title="线性"
+        android:visible="true"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/gridview"
+        android:enabled="true"
+        android:title="网格"
+        android:visible="true"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/heng"
+        android:enabled="true"
+        android:title="侧滑"
+        android:visible="true"
+        app:showAsAction="never"/>
+
+</menu>

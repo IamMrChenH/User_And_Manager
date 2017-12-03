@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_vio_lation_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="user_and_manager.chenhao.com.user_and_manager.ui.activity.user.VioLationDetailsActivity">
+
+    <include layout="@layout/tool_item_layout"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/ic_gray_back"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/up_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="罚款50"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/up_LastFee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="滞纳金50"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/up_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="17-03-18-20:55"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha="0.8"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/up_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="left"
+            android:maxLines="1"
+            android:text="违规编号: 10086"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="#708090"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/up_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="left"
+            android:maxLines="1"
+            android:text="扣分: 10086"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="#708090"
+            android:textSize="16sp"/>
+
+
+        <TextView
+            android:id="@+id/up_catNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="left"
+            android:maxLines="1"
+            android:text="车牌: 10086"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="#708090"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/up_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="left"
+            android:text="地点: 10086"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="#708090"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/up_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="left"
+            android:text="行为: 10086"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="#708090"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/up_office"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="left"
+            android:text="采集机关: 10086"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="#708090"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/up_moneyFlag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="left"
+            android:text="缴费状态: 10086"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="#708090"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/up_flag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="left"
+            android:text="处理情况: 10086"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="#708090"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/up_overTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="left"
+            android:text="处理时间: 10086"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="#708090"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/up_phoneText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="left"
+            android:text="以下照片"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="#708090"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/imager1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher_round"/>
+
+            <ImageView
+                android:id="@+id/imager2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher_round"/>
+
+            <ImageView
+                android:id="@+id/imager3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher_round"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/ic_btn"
+
+        android:text="缴费"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"/>
+
+
+</LinearLayout>
